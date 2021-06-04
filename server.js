@@ -1,6 +1,6 @@
-var express = require('express');
-var app = express();
-var fs = require('fs');
+var express = require('express'); //import express module
+var app = express(); //create an instance for express
+var fs = require('fs'); 
 var port = process.env.PORT || 3002
 
 //show the list of users
