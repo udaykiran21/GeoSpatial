@@ -99,6 +99,7 @@ app.delete('/delete/:name', (req,res) => {
 })
 
 //function for distances from nearest to farthest sorted list, $geoWithin provides distances witout sorting
+//mondodb allows us to use $nearSphere operator that returns the documents nearest to farthest
 app.get('/distances/:longitude&:latitude', (req,res) => {
 	UserModel.find({
 
