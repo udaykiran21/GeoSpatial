@@ -1,0 +1,261 @@
+[{
+  "_id": {
+    "$oid": "60b9c17c6f3075d35062bbdb"
+  },
+  "address": {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        76.68,
+        12.12
+      ]
+    },
+    "city": "Mysore",
+    "state": "Karnataka",
+    "pincode": 570001
+  },
+  "name": "Steven",
+  "mobile": 6575564748,
+  "email": "steven@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-04T06:00:28.931Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-04T06:00:28.931Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b9c1be6f3075d35062bbdc"
+  },
+  "address": {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        80.94,
+        26.85
+      ]
+    },
+    "city": "lucknow",
+    "state": "Uttarpradesh",
+    "pincode": 870001
+  },
+  "name": "Dickson",
+  "mobile": 5837948098,
+  "email": "dickson@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-04T06:01:34.812Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-04T06:01:34.812Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b9c1f86f3075d35062bbdd"
+  },
+  "address": {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        77.06,
+        28.67
+      ]
+    },
+    "city": "delhi",
+    "state": "New Dehi",
+    "pincode": 170001
+  },
+  "name": "Chris",
+  "mobile": 6464778899,
+  "email": "chris@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-04T06:02:32.499Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-04T06:02:32.499Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b9c2316f3075d35062bbde"
+  },
+  "address": {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.87,
+        19.07
+      ]
+    },
+    "city": "mumbai",
+    "state": "Maharashta",
+    "pincode": 270002
+  },
+  "name": "Jimmy",
+  "mobile": 3029847580,
+  "email": "jimmy@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-04T06:03:29.611Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-04T06:03:29.611Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b9c26b6f3075d35062bbdf"
+  },
+  "address": {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.84,
+        24.63
+      ]
+    },
+    "city": "pakur",
+    "state": "West Bengal",
+    "pincode": 230001
+  },
+  "name": "Eric",
+  "mobile": 8877662211,
+  "email": "eric@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-04T06:04:28.002Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-04T06:04:28.002Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b9c2a66f3075d35062bbe0"
+  },
+  "address": {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        87.52,
+        23.9
+      ]
+    },
+    "city": "suri",
+    "state": "Chattisgarh",
+    "pincode": 450001
+  },
+  "name": "Peter",
+  "mobile": 8376589021,
+  "email": "peter@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-04T06:05:26.100Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-04T06:05:26.100Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b9c2d76f3075d35062bbe1"
+  },
+  "address": {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        85.7,
+        25.47
+      ]
+    },
+    "city": "Hyderabad",
+    "state": "Telagana",
+    "pincode": 500001
+  },
+  "name": "Sam",
+  "mobile": 8374900284,
+  "email": "sam@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-04T06:06:15.945Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-04T06:06:15.945Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b9c3146f3075d35062bbe2"
+  },
+  "address": {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        72.12,
+        23.84
+      ]
+    },
+    "city": "Patan",
+    "state": "Orissa",
+    "pincode": 450001
+  },
+  "name": "Zaheer",
+  "mobile": 1263748855,
+  "email": "zaheer@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-04T06:07:16.023Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-04T06:07:16.023Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b9c3476f3075d35062bbe3"
+  },
+  "address": {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        81.28,
+        21.19
+      ]
+    },
+    "city": "durg",
+    "state": "Jharkhand",
+    "pincode": 670001
+  },
+  "name": "Rahul",
+  "mobile": 9982337485,
+  "email": "rahul@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-04T06:08:07.894Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-04T06:08:07.894Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "60b9c3956f3075d35062bbe4"
+  },
+  "address": {
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        73.32,
+        25.77
+      ]
+    },
+    "city": "pali",
+    "state": "Tamil Nadu",
+    "pincode": 480002
+  },
+  "name": "Tom",
+  "mobile": 5557930847,
+  "email": "tom@gmail.com",
+  "createdAt": {
+    "$date": "2021-06-04T06:09:25.252Z"
+  },
+  "updatedAt": {
+    "$date": "2021-06-04T06:09:25.252Z"
+  },
+  "__v": 0
+}]
