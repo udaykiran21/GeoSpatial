@@ -2,7 +2,7 @@ const express = require('express') //import the express module
 const app = express()    //create an instance for the express
 const path = require('path') //import part module
 const mongoose = require('mongoose') //importing mongoose library
-//const url = 'mongodb+srv://Udaykiran:udaykiran@uday.uuhmz.mongodb.net/peopledb?retryWrites=true&w=majority' //url to connect to db
+//const url = 'mongodb+srv://Udaykiran:*********@uday.uuhmz.mongodb.net/peopledb?retryWrites=true&w=majority' //url to connect to db
 const url = 'mongodb://localhost/peopledb'
 
 const UserModel = require("./models/user") //importing the modeller
