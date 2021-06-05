@@ -74,5 +74,19 @@ app.listen(port, () => {
 	console.log('server running at:' + port) //listens to port assigned
 })
 
+############
+
+Go to console terminal
+--$node /server.js
+when a successful connection is made, go to web browser and enter the URI :http://127.0.0.1:port (port is the defined port number)
+
+--the form for user input appears, then quickly add the details of residents and submit them
+
+Testing the application:
+-- Launch the Postman application.
+-- Enter the URI to perform the various operations
+route http://127.0.0.1:port/sort/desc -- displays the userlist in descending order according to createdAt
+rout http://127.0.0.1:port/distances/45.17&12.45 -- displays the nearest to farthest users from the coordinates (12.45, 45.17) //in geojson, first coordinate is longitude and second cooridnate is latitude)
+
 
 
