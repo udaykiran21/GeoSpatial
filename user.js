@@ -13,19 +13,16 @@ const UserSchema = new Schema({				//define the schema
 		
 		city:  { type: String }, 
 		state:  { type: String }, 
-		pincode: { type: Number}, 
+		pincode: { type: Number}
+	},
 		
 	
 		location: {											//GeoJson cooridnates format
-					type: {type: String, default: 'Point'}, //point type coordinates
-					coordinates: [Number]
-			  		}
-	
-				}
-
-
-	
-},
+			type: {type: String, default: 'Point'}, //point type coordinates
+				coordinates: [Number]
+			}
+			  		
+	},
 
 
  { timestamps : true })  // timestamps enable us to include createdAt, updatedAt
