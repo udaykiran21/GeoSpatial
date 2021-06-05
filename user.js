@@ -17,7 +17,7 @@ const UserSchema = new Schema({				//define the schema
 	},
 		
 	
-		location: {											//GeoJson cooridnates format
+		location: {					//GeoJson cooridnates format
 			type: {type: String, default: 'Point'}, //point type coordinates
 				coordinates: [Number]
 			}
