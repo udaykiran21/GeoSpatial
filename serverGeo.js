@@ -31,19 +31,18 @@ app.get('/', (req,res) => {
 app.post('/api/user', (req,res) => {			//writes the data into the collection
 
 			const SaveUser = new UserModel({name: req.body.name,    //req.body contains the data from the client
-											mobile: req.body.mobile,
-											email: req.body.email,
-											address:
-											{ 	
+							mobile: req.body.mobile,
+							email: req.body.email,
+							address:
+							{ 	
 
-												city: req.body.city, 
-												state: req.body.state, 
-												pincode: req.body.pincode, 
-		
-												location: {coordinates: [Number(req.body.longitude), Number(req.body.latitude)]}
-											}
-										   }
-										   )
+								city: req.body.city, 
+								state: req.body.state, 
+								pincode: req.body.pincode, 
+							},
+								location: {coordinates: [Number(req.body.longitude), Number(req.body.latitude)]}
+						       })
+							
 
 				
 			SaveUser.save((error, savedUser)=>{
