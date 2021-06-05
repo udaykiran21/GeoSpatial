@@ -67,7 +67,7 @@ app.get('/sort/desc', (req,res) => {      //defines the route to get the list of
 	}).sort({ createdAt: 'desc' }) //this method sorts the data in descending order
 })
 
-app.get('/:name', (req,res) => {  //route to display a specific data
+app.get('/:name', (req,res) => {  //route to display a specific data 
 	UserModel.find({ name: req.params.name }, (err,users) => {  //req.params contain the paramaters in the URL
 		if (err)
 			throw err
