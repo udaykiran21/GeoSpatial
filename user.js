@@ -1,7 +1,7 @@
 const mongoose = require("mongoose") //Importing mongoose
 const Schema = mongoose.Schema
 
-const UserSchema = new Schema({				//define the schema
+const UserSchema = new Schema({			//define the schema
 	
 	name: { type: String }, 	//declare the type for every key
 	mobile: { type: Number, unique: true }, //unique true makes sure that mobile number is unique for every entry
