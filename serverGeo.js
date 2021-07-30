@@ -18,7 +18,7 @@ app.use(express.json()) //helpful in parsing JSON
 app.use(express.urlencoded({extended: true})) //helpful in parsing forms
 
 /*app.engine('ejs', require('ejs').renderFile)*/
-app.set('views', path.join('/home/uday/Documents/projects', 'views')) //we have to define the path where the views folder exist, otherwise node throws error
+app.set('views', path.join('/home/uday/Documents/projects', 'views')) //we have to define the path where the views folder exist, (even __dirname() works)
 app.set("view engine", "ejs") //set the template engine to ejs
 
 
