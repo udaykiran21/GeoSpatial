@@ -87,6 +87,5 @@ Testing the application:\
 -- Enter the URI to perform the various operations\
 route http://127.0.0.1:port/sort/desc -- displays the userlist in descending order according to createdAt\
 rout http://127.0.0.1:port/distances/45.17&12.45 -- displays the nearest to farthest users from the coordinates (12.45, 45.17) //in geojson, first coordinate is longitude and second cooridnate is latitude)\
-\
 
 
